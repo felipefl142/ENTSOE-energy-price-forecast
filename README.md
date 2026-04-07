@@ -56,8 +56,8 @@ Streamlit dashboard (Forecast / Model Comparison / EDA / DuckDB Console)
 
 ```bash
 # Clone and enter the project
-git clone git@github.com:felipefl142/energy-price-forecast.git
-cd energy-price-forecast
+git clone git@github.com:felipefl142/ENTSOE-energy-price-forecast.git
+cd ENTSOE-energy-price-forecast
 
 # Create and activate virtual environment
 python3.12 -m venv .venv  # ZenML requires Python <3.14
@@ -106,7 +106,7 @@ streamlit run app/main.py
 ## Project Structure
 
 ```
-energy-price-forecast/
+ENTSOE-energy-price-forecast/
 ├── etl/                    # Data pipeline (collect → bronze → silver → gold)
 │   └── sql/               # DuckDB SQL templates
 ├── feature_store/          # Feast definitions (entity, feature views)

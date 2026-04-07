@@ -1,4 +1,4 @@
-project: energy_price_forecast
+project: entsoe_energy_price_forecast
 provider: local
 registry: ../data/feast/registry.db
 online_store:
