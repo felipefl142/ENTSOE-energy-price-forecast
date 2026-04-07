@@ -60,7 +60,7 @@ git clone git@github.com:felipefl142/energy-price-forecast.git
 cd energy-price-forecast
 
 # Create and activate virtual environment
-python3 -m venv .venv
+python3.12 -m venv .venv  # ZenML requires Python <3.14
 source .venv/bin/activate
 
 # Install dependencies

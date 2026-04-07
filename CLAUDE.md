@@ -111,8 +111,8 @@ streamlit run app/main.py
 **Always use the project's `.venv` — never install packages into the system/native Python.**
 
 ```bash
-# Create venv (first time only)
-python3 -m venv .venv
+# Create venv (first time only) — must use python3.12; ZenML requires Python <3.14
+python3.12 -m venv .venv
 
 # Activate (do this before running any command)
 source .venv/bin/activate
