@@ -1,0 +1,39 @@
+# Environment
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.python-version
+
+# Data (large files — keep structure, ignore actual data)
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/feast/registry.db
+data/feast/online_store.db
+data/feast/features.parquet
+data/predictions/
+
+# Models
+models/*.pkl
+models/*.json
+
+# ZenML local store
+.zen/
+
+# Feast registry
+feature_store/__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
