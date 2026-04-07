@@ -37,3 +37,6 @@ feature_store/__pycache__/
 
 # OS
 .DS_Store
+
+# Claude
+CLAUDE.md
